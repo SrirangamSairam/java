@@ -6,7 +6,7 @@ public class Main {
         System.out.println(minValue);
         System.out.println(maxValue);
         int newVal =  (minValue * 3 / 2);
-        System.out.println(newVal);
+        System.out.println( newVal );
         System.out.println(maxValue + 2);
         /* Cannot assign a value greater than max value to the data type,
            below expression throws an error "integer number too large"
