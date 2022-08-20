@@ -17,7 +17,7 @@ class Result {
             F=k+ [(13*m-1)/5] +D+ [D/4] +[C/4]-2*C where
             k is  the date of the month.
             m is the month number.(starting from march=1...till feb = 12)
-            therefore substract month with 2 to use in this formula
+            therefore subtract month with 2 to use in this formula
             D is the last two digits of the year.
             C is the first two digits of the year.
         */
