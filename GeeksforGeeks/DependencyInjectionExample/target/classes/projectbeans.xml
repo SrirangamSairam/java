@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+    <bean id="engine1" class="org.example.Engine" scope="prototype">
+        <property name="name" value="new engine"/>
+        <property name="cc" value="1600"/>
+    </bean>
+
+    <bean id="engine2" class="org.example.Engine">
+        <property name="name" value="torque engine"/>
+        <property name="cc" value="1200"/>
+    </bean>
+
+    <bean id="engine4" class="org.example.Engine">
+        <constructor-arg value="tester"/>
+        <constructor-arg value="1800"/>
+    </bean>
+
+    <bean id="engine3" class="org.example.Engine" init-method="engineInit" destroy-method="engineDestroy">
+        <property name="name" value="power-engine"/>
+        <property name="cc" value="1200"/>
+    </bean>
+
+    <bean id="car1" class="org.example.Car">
+        <property name="name" value="Hexa"/>
+        <property name="engine" ref="engine4"/>
+    </bean>
+
+
+</beans>

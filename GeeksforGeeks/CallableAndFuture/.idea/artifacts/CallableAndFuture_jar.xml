@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CallableAndFuture:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CallableAndFuture_jar</output-path>
+    <root id="archive" name="CallableAndFuture.jar">
+      <element id="module-output" name="CallableAndFuture" />
+    </root>
+  </artifact>
+</component>
