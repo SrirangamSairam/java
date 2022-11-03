@@ -22,7 +22,7 @@ public class ProductService {
     }
 
     public List<Product> getProductsByName(String name) {
-        return null;
+        return productDao.getProductsByName(name);
     }
 
     public Product getProductById(int id) {
