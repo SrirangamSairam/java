@@ -19,7 +19,6 @@ public class MailController {
     @PostMapping("/send")
     public ResponseEntity<String> sendMail(@RequestBody SendEmailRequest request) {
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-        simpleMailMessage.setFrom("sairamsrirangam111@gmail.com");
         simpleMailMessage.setSubject(request.getSubject());
         simpleMailMessage.setTo(request.getToEmail());
         simpleMailMessage.setText(request.getBody());

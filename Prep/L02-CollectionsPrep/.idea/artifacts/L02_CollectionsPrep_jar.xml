@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="L02-CollectionsPrep:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/L02_CollectionsPrep_jar</output-path>
+    <root id="archive" name="L02-CollectionsPrep.jar">
+      <element id="module-output" name="L02-CollectionsPrep" />
+    </root>
+  </artifact>
+</component>

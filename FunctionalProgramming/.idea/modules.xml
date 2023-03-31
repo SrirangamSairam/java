@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FunctionalProgramming.iml" filepath="$PROJECT_DIR$/.idea/FunctionalProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunctionalProgrammingExample/FunctionalProgrammingExample.iml" filepath="$PROJECT_DIR$/FunctionalProgrammingExample/FunctionalProgrammingExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LambdaExample/LambdaExample.iml" filepath="$PROJECT_DIR$/LambdaExample/LambdaExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OptionalClassExample/OptionalClassExample.iml" filepath="$PROJECT_DIR$/OptionalClassExample/OptionalClassExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrintCousesIndividually/PrintCousesIndividually.iml" filepath="$PROJECT_DIR$/PrintCousesIndividually/PrintCousesIndividually.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrintEvenNumbers/PrintEvenNumbers.iml" filepath="$PROJECT_DIR$/PrintEvenNumbers/PrintEvenNumbers.iml" />
+    </modules>
+  </component>
+</project>
